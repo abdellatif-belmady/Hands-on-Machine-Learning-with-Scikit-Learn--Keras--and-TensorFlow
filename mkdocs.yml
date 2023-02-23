@@ -1,0 +1,167 @@
+# Project information
+site_name: Hands on Machine Learning with Scikit-Learn, Keras, and TensorFlow
+site_author: Abdellatif BELMADY
+edit_uri: https://github.com/abdellatif-belmady/Hands-on-Machine-Learning-with-Scikit-Learn--Keras--and-TensorFlow/tree/main/docs
+site_description: >-
+  "Hands-On Machine Learning with Scikit-Learn and TensorFlow" is a book that provides practical guidance and insights on how to build and train machine learning models using the Scikit-Learn and TensorFlow libraries. The book starts by introducing the fundamental concepts of machine learning, including supervised and unsupervised learning, model selection, and evaluation. It then guides the reader through the process of building and training various types of models, such as linear regression, decision trees, support vector machines, neural networks, and deep learning models.
+
+
+# Repository
+repo_name: abdellatif-belmady/Hands-on-Machine-Learning-with-Scikit-Learn--Keras--and-TensorFlow
+repo_url: https://github.com/abdellatif-belmady/Hands-on-Machine-Learning-with-Scikit-Learn--Keras--and-TensorFlow
+
+# Copyright
+copyright: Copyright &copy; 2022 - 2023 Abdellatif BELMADY
+
+# Configuration
+theme:
+  language: en
+
+
+  logo: assets/logo.png
+
+  favicon: assets/favicon.png
+
+  name: material
+  
+  features:
+    - content.code.copy
+    - content.action.edit
+    # - announce.dismiss
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    #- navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - navigation.expand
+    - navigation.footer
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search
+  - tags
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - extra
+  - meta
+  - smarty
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
+
+
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/abdellatif-belmady
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/abdellatif-belmady-ab999a133/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/abdellatif.belmady
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@otherways8368/featured
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/abdellatifbelmady/
+     
+# Page tree
+nav:
+      - index.md
+      - Preface: Preface/index.md
+      - The Fundamentals of Machine Learning:
+        - The Machine Learning Landscape: The Fundamentals of Machine Learning/3.1. The Machine Learning Landscape.md
+        - End-to-End Machine Learning Project: The Fundamentals of Machine Learning/3.2. End-to-End Machine Learning Project.md
+        - Classification: The Fundamentals of Machine Learning/3.3. Classification.md
+        - Training Models: The Fundamentals of Machine Learning/3.4. Training Models.md
+        - Support Vector Machines: The Fundamentals of Machine Learning/3.5. Support Vector Machines.md
+        - Decision Trees: The Fundamentals of Machine Learning/3.6. Decision Trees.md
+        - Ensemble Learning and Random Forests: The Fundamentals of Machine Learning/3.7. Ensemble Learning and Random Forests.md
+        - Dimensionality Reduction: The Fundamentals of Machine Learning/3.8. Dimensionality Reduction.md
+        - Unsupervised Learning Techniques: The Fundamentals of Machine Learning/3.9. Unsupervised Learning Techniques.md
+      - Neural Networks and Deep Learning:
+        - Introduction to Artificial Neural Networks with Keras: Neural Networks and Deep Learning/4.1. Introduction to Artificial Neural Networks with Keras.md
+        - Training Deep Neural Networks: Neural Networks and Deep Learning/4.2. Training Deep Neural Networks.md
+        - Custom Models and Training with TensorFlow: Neural Networks and Deep Learning/4.3. Custom Models and Training with TensorFlow.md
+        - Custom Models and Training with TensorFlow: Neural Networks and Deep Learning/4.4. Loading and Preprocessing Data with TensorFlow.md
+        - Deep Computer Vision Using Convolutional Neural Networks: Neural Networks and Deep Learning/4.5. Deep Computer Vision Using Convolutional Neural Networks.md
+      - About the Author: About the Author.md
+      - Colophon: Colophon.md
+  
+
+
+
+
+
+
+
+
+
